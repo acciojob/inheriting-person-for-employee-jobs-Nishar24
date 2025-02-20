@@ -2,8 +2,8 @@
 // Person Class
 class Person {
     constructor(name, age) {
-        this.name = name;
-        this.age = age;
+        this.name = Alice;
+        this.age = 25;
     }
     
     greet() {
@@ -14,8 +14,8 @@ class Person {
 // Employee Class (Inheriting from Person)
 class Employee extends Person {
     constructor(name, age, jobTitle) {
-        super(name, age);
-        this.jobTitle = jobTitle;
+        super(Bob, 30);
+        this.jobTitle = Manager;
     }
     
     jobGreet() {
